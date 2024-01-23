@@ -56,6 +56,7 @@ function Navigation() {
       {!authCtx.isAuthenticated && <AuthStack />}
       {authCtx.isAuthenticated &&  <AuthenticatedStack />}
     </NavigationContainer>
+    
   );
 }
 
